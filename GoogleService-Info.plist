@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>495246918741-3mrkoeh0kg12pijp04utjqr09hels81u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.495246918741-3mrkoeh0kg12pijp04utjqr09hels81u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCRLSa3rNdtsGxs1ZkE4fAJTu3cYWj5kpg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>495246918741</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>self-sufficiency.aupi</string>
+	<key>PROJECT_ID</key>
+	<string>self-sufficiency-3676b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>self-sufficiency-3676b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:495246918741:ios:1eb33a9d294e0d253600dc</string>
+	<key>DATABASE_URL</key>
+	<string>https://self-sufficiency-3676b-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
