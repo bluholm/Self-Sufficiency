@@ -1,0 +1,157 @@
+# By default, SwiftLint uses a set of sensible default rules you can adjust:
+disabled_rules: # rule identifiers turned on by default to exclude from running
+- trailing_whitespace
+
+opt_in_rules: # some rules are turned off by default, so you need to opt-in
+  - empty_count # Find all the available rules by running: `swiftlint rules`
+
+# Alternatively, specify all rules explicitly by uncommenting this option:
+# only_rules: # delete `disabled_rules` & `opt_in_rules` if using this
+#   - empty_parameters
+#   - vertical_whitespace
+
+cyclomatic_complexity:
+  warning: 10
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+analyzer_rules: # Rules run by `swiftlint analyze`
+  - explicit_self
+
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+force_cast: warning # implicitly
+force_try:
+  severity: warning # explicitly
+# rules that have both warning and error levels, can set just the warning level
+# implicitly
+line_length: 200
+# they can set both implicitly with an array
+type_body_length:
+  - 300 # warning
+  - 400 # error
+# or they can set both explicitly
+file_length:
+  warning: 500
+  error: 1200
+# naming rules can set warnings/errors for min_length and max_length
+# additionally they can set excluded names
+type_name:
+  min_length: 4 # only warning
+  max_length: # warning and error
+    warning: 40
+    error: 50
+  excluded: iPhone # excluded via string
+  allowed_symbols: ["_"] # these are allowed in type names
+identifier_name:
+  min_length: # only min_length
+    error: 4 # only error
+  excluded: # excluded via string array
+    - id
+    - uid
+    - vc
+    - key
+    - for
+    - row
+    - lhs
+    - rhs
+    - ref
+    - url
+    - app
+    - URL
+    - GlobalAPIKey
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, codeclimate, junit, html, emoji, sonarqube, markdown, github-actions-logging)
+custom_rules:
+  space_after_main_type:
+    name: "No space after main type"
+    regex: '(class|struct|enum|extension)((?-s)\s.*\{$\n)(?!^\s*$)'
+    message: "Empty line required after main declarations"
+    severity: warning
+  non_localized_string:
+    regex: '(?<!NSLocalizedString\(|fatalError\(|assertionFailure\(|preconditionFailure\(|assert\(false, |format: |separator: |deprecated, message: |\w|\")(?:"[^" \n]+ [^"\n]*"|"[[:upper:]][[:lower:]]+"|""".*?""")'
+    message: "Wrap string in NSLocalizedString()"
+    match_kinds: string
+    excluded: '.*Tests/'
+  auto_generated_leftovers:
+    regex: 'func [^\n]*\{\n(\s*super\.[^\n]*\n(\s*\/\/[^\n]*\n)*|(\s*\/\/[^\n]*\n)+)\s*\}'
+    message: "Delete auto-generated functions that you don't use"
+  already_true:
+    regex: "== true"
+    message: "Don't compare to true, just use the bool value."
+  already_bool:
+    regex: "== false"
+    message: "Don't compare to false, just use !value."
+  commented_code:
+    regex: '(?&lt;!:|\/)\/\/\h*[a-z.](?!wiftlint)'
+    message: "Comment starting with lowercase letter - did you forget to delete old code?"
+  multiline_commented_code:
+    regex: '^\s*[a-z]'
+    match_kinds: comment
+    message: "Comment starting with lowercase letter - did you forget to delete old code?"
+  custom_todo:
+    included: ".*.swift"
+    name: "TODO Violation"
+    regex: "(TODO).(?!.*(https&)).(?!.*issues)"
+    match_kinds: comment
+    message: "TODOs must include a link to the github issue."
+    severity: warning
+  multiple_empty_lines:
+    included: ".*.swift"
+    name: "Multiple Empty Lines"
+    regex: '((?:\s*\n){3,})'
+    message: "There are too many line breaks"
+    severity: error
+  non_weak_delegate_datasource:
+    included: ".*.swift"
+    name: "Retain Cycle"
+    regex: '^\ *var\ *(delegate)'
+    message: "Delegate/datasource may be weak."
+    severity: warning
+  swiftlint_file_disabling:
+    included: ".*.swift"
+    name: "SwiftLint File Disabling"
+    regex: "swiftlint:disable\\s"
+    match_kinds:
+      - comment
+    message: "Prefer swiftlint:disable:next or swiftlint:disable:this"
+    severity: warning
+  optional_try:
+    included: ".*.swift"
+    name: "Optional Try"
+    regex: "(try[!,?])"
+    message: "You should wrap a `try` in a `do/catch` loop rather than forcibly or optionally attempting it."
+    severity: error
+  protocol_conformance:
+    included: ".*.swift"
+    name: "Protocol Conformance"
+    message: "Protocol conformance should be declared in separate extensions in the same file"
+    regex: "(class|struct|extension)[[:space:]]+(?i:(?![^d]*delegate:))[^'\"()<>{},!?:]+:([^'\"<>(){},!?:]+,)+[^'\"<>(){},!?:]*\\{"
+    match_kinds:
+      - keyword
+    severity: warning
+  public_ui_model:
+    included: ".*.swift"
+    name: "Public UIModel"
+    regex: "^(open |private |internal |)(class|struct) [a-zA-Z]+(?i)UI(Model|DAO)"
+    message: "UIModel must be public only."
+    severity: error
+  non_public_datamodel:
+    included: ".*.swift"
+    name: "Non Public Data Model"
+    regex: "^(open |private |public )(class|struct) [a-zA-Z]+(?i)(Request|Response)(Model|DAO|)"
+    message: "Data Model must be internal only."
+    severity: error
+  non_public_datasource:
+    included: ".*.swift"
+    name: "Non Public DataSource"
+    regex: "^(open |private |public )(class|struct) [a-zA-Z]+(?i)DataSource"
+    message: "Data Source must be internal only."
+    severity: error
+  dont_import_uikit:
+    included: ".*(?i)(ViewModel|Model|DataSource).swift"
+    name: "Don't import UIKit in ViewModel"
+    regex: "^import (UIKit)$"
+    message: "Don't import UIKit in ViewModel/ Model / DataSource"
+    severity: error
+
