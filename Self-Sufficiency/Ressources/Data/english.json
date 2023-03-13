@@ -1,5 +1,331 @@
 [
     {
+        "uid": "12",
+        "title": "Medicine & First Aid",
+        "subtitle": "Preparation, skills, equipment...",
+        "image": "firstAid",
+        "links": [],
+        "descriptionShort": "Being prepared for first aid can make the difference between life and death in an emergency situation. This checklist will help ensure you have everything you need to provide first aid, including first aid kits, books on first aid and medicinal plants, medical survival skills, first aid training, and basic equipment for sterilization.",
+        "descriptionLong": "Being prepared for first aid is essential for anyone wanting to be ready to face a crisis situation, whether it's an accident, natural disaster or pandemic, it's important to know how to react and provide first aid. The first step is to ensure you have a portable first aid kit containing all the necessary items such as bandages, dressings, bandages, antiseptics, scissors, and gloves. Additionally, it is recommended to have books on first aid, medicinal plants, and medications to help you better understand emergency healthcare.\n\nIn addition to books, it's also important to have medical survival skills. This may include the ability to quickly assess the situation and the patient's condition, identify common injuries and illnesses, administer first aid, stabilize the patient, evacuate and transport the injured. Having basic medical survival skills can help you feel more confident and prepared to deal with a crisis situation.\n\nTaking a first aid training course is another important step. This will help you acquire additional skills and knowledge on first aid, familiarize yourself with different types of injuries and illnesses, and learn how to properly use different medical tools and equipment. First aid courses are often offered at local emergency centers, training centers, and community organizations.\n\nFinally, sterilization is a crucial step in preventing infections and complications when providing emergency medical care. It's important to have basic equipment for sterilization, such as antiseptic wipes, boiled water, soap, and sterile gloves. By following these first aid preparation steps, you will be better equipped to handle emergency situations and provide first aid effectively and safely.",
+        "items": [
+            {
+            "id": "BASIC_TOOLS",
+            "title": "I have basic equipment",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Having basic equipment is crucial to being prepared for emergency situations. Here's why:"
+            },
+            {
+            "type": "bullet",
+            "value": "Basic equipment can help cover essential needs such as water, food, shelter, security, and first aid."
+            },
+            {
+            "type": "bullet",
+            "value": "It can increase survival and safety chances in unexpected situations, such as a power outage or natural disaster."
+            },
+            {
+            "type": "bullet",
+            "value": "It can help reduce stress and anxiety by knowing that you are prepared to handle emergency situations."
+            },
+            {
+            "type": "text",
+            "value": "Here are some examples of basic equipment:"
+            },
+            {
+            "type": "bullet",
+            "value": "A backpack to store and transport survival equipment."
+            },
+            {
+            "type": "bullet",
+            "value": "A first aid kit to treat minor injuries."
+            },
+            {
+            "type": "bullet",
+            "value": "A source of drinkable water, such as a water bottle or a canteen with a filtration system."
+            },
+            {
+            "type": "bullet",
+            "value": "Non-perishable foods, such as energy bars, dried fruits, or canned food."
+            },
+            {
+            "type": "bullet",
+            "value": "Weather-appropriate clothing, such as a waterproof jacket and hiking shoes."
+            },
+            {
+            "type": "bullet",
+            "value": "A versatile knife for cutting, carving, and opening packages."
+            },
+            {
+            "type": "bullet",
+            "value": "A lighter or matches to start a fire."
+            },
+            {
+            "type": "bullet",
+            "value": "A flashlight or headlamp to see in the dark."
+            }
+            ]
+            },
+            {
+            "id": "FIRST_AID_COURSE",
+            "title": "I took a first aid course",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.redcross.org.uk/first-aid",
+            "description": "website",
+            "title": "First aid courses - British Red Cross"
+            },
+            {
+            "url": "https://www.sja.org.uk/get-advice/first-aid-advice/basic-first-aid-advice/",
+            "description": "website",
+            "title": "Basic first aid advice - St John Ambulance"
+            },
+            {
+            "url": "https://www.nhs.uk/conditions/first-aid/",
+            "description": "website",
+            "title": "First aid - NHS"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Taking a first aid course is essential for preparing for emergency situations. Here's why:"
+            },
+            {
+            "type": "bullet",
+            "value": "In the event of an accident or sudden illness, first aid can save lives by preventing the victim's condition from worsening before professional help arrives."
+            },
+            {
+            "type": "bullet",
+            "value": "First aid training also teaches how to respond to different emergency situations, whether it's burns, fractures, choking, cardiac arrest, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "It also prepares for larger emergency situations such as a natural disaster, terrorist attack, or armed conflict."
+            },
+            {
+            "type": "bullet",
+            "value": "There are many organizations that offer first aid courses, including the British Red Cross, St John Ambulance, and local first aid associations."
+            }
+            ]
+            },
+            {
+            "id": "SURVIVAL_SKILL",
+            "title": "Medical Survival Skills",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [ ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Having medical survival skills is crucial for dealing with emergency situations where professional medical care is not available. Here's why:"
+            },
+            {
+            "type": "bullet",
+            "value": "In the event of a natural disaster or other emergency situations, medical services may be overwhelmed, which can make accessing medical care difficult or even impossible."
+            },
+            {
+            "type": "bullet",
+            "value": "Medical survival skills can help save lives by providing basic care such as wound cleaning, burn and fracture treatment, infection management, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Medical survival skills can also be helpful in preventing illnesses and injuries by learning to identify warning signs and taking preventive measures."
+            },
+            {
+            "type": "text",
+            "value": "Here are some examples of medical survival skills and places where you can find information to acquire them:"
+            },
+            {
+            "type": "bullet",
+            "value": "Basic first aid: knowing first aid gestures, how to clean and treat a wound, how to perform CPR, etc. Information can be found in first aid manuals, first aid courses, or online on sites such as the Red Cross."
+            },
+            {
+            "type": "bullet",
+            "value": "Nutrition skills: knowing how to identify and prepare healthy food in case of food shortage or food crisis. Information can be found in books on survival food, emergency nutrition guides, or online on sites such as Passport Santé."
+            },
+            {
+            "type": "bullet",
+            "value": "Emergency medicine skills: knowing the symptoms of common illnesses and injuries, how to treat and prevent them. Information can be found in emergency medicine manuals, advanced first aid courses, or online on sites such as Health on the Net."
+            }
+            ]
+            },
+            {
+            "id": "MEDICINE_BOOKS",
+            "title": "I have medicine books",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Having medicine books is important for several reasons:"
+            },
+            {
+            "type": "bullet",
+            "value": "They allow you to learn about the properties and uses of different medicinal plants."
+            },
+            {
+            "type": "bullet",
+            "value": "They can help you identify medicinal plants and use them safely and effectively."
+            },
+            {
+            "type": "bullet",
+            "value": "They can also provide information on drug interactions and side effects of medicinal plants."
+            },
+            {
+            "type": "text",
+            "value": "Here are some examples of places where you can find information on medicinal plants:"
+            },
+            {
+            "type": "bullet",
+            "value": "Bookstores and libraries offer specialized books on medicinal plants."
+            },
+            {
+            "type": "bullet",
+            "value": "Health websites also offer reliable information on medicinal plants, such as Pharmaciens Giphar."
+            },
+            {
+            "type": "bullet",
+            "value": "The World Health Organization also offers strategies to promote the use of traditional medicine, including medicinal plants, as in its 'WHO traditional medicine strategy' document."
+            }
+            ]
+            },
+            {
+            "id": "BOOK-PLANTS",
+            "title": "I have books on medicinal plants",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Medicinal plants are important natural resources for human health and well-being. Here's why:"
+            },
+            {
+            "type": "bullet",
+            "value": "They have been used for thousands of years to treat a variety of health problems, ranging from headaches to heart disease."
+            },
+            {
+            "type": "bullet",
+            "value": "They can be grown at home or in a garden and are often less expensive than prescription drugs."
+            },
+            {
+            "type": "bullet",
+            "value": "They are often used to treat symptoms rather than diseases, which makes them useful for relieving headaches, muscle pains, and digestive problems, for example."
+            },
+            {
+            "type": "text",
+            "value": "Here are some examples of resources where you can find information on medicinal plants:"
+            },
+            {
+            "type": "bullet",
+            "value": "Specialized websites, such as pharmacien-naturopathe.fr and passeportsante.net."
+            },
+            {
+            "type": "bullet",
+            "value": "Natural food and organic product stores, such as Satoriz.fr."
+            },
+            {
+            "type": "bullet",
+            "value": "Specialized books, such as the Larousse des plantes médicinales and Le Grand guide de la phytothérapie."
+            }
+            ]
+            },
+            {
+            "id": "BOOK-FIRST-AID",
+            "title": "I have books on first aid",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Having books on first aid can be extremely useful in many emergency situations. Here's why:"
+            },
+            {
+            "type": "bullet",
+            "value": "First aid books provide detailed instructions on first aid techniques, which can help save lives in emergency situations."
+            },
+            {
+            "type": "bullet",
+            "value": "They can provide valuable information on different types of injuries, illnesses, or other emergency situations and how to handle them."
+            },
+            {
+            "type": "bullet",
+            "value": "They can also help prevent accidents and injuries by providing advice on safety at work and at home."
+            },
+            {
+            "type": "text",
+            "value": "There are many places where you can find information on first aid, including:"
+            },
+            {
+            "type": "bullet",
+            "value": "Government agency or organization websites such as the Red Cross, which offer first aid training courses."
+            },
+            {
+            "type": "bullet",
+            "value": "Bookstores, where you can find books on first aid and general health."
+            },
+            {
+            "type": "bullet",
+            "value": "Libraries, where you can borrow books on first aid and other related topics."
+            }
+            ]
+            },
+            {
+            "id": "FIRST-AID-KIT",
+            "title": "I have a portable first aid kit",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "It's important to have a portable first aid kit in case of an emergency. Here's why:"
+            },
+            {
+            "type": "bullet",
+            "value": "In case of an accident or injury, a first aid kit allows for quickly and effectively administering first aid before professional help arrives."
+            },
+            {
+            "type": "bullet",
+            "value": "A portable first aid kit provides access to necessary medical supplies, whether you're camping, hiking, traveling, or in the event of a natural disaster."
+            },
+            {
+            "type": "bullet",
+            "value": "The first aid kit can be customized to your personal needs, including specific medications, blister bandages, anti-inflammatory medication, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Information about first aid kits and necessary medical supplies can be found from emergency organizations, specialized websites, or pharmacies."
+            },
+            {
+            "type": "text",
+            "value": "A first aid kit should contain basic supplies to help treat minor injuries and medical emergencies. Here's a list of recommended items:"
+            },
+            {
+            "type": "text",
+            "value": "- Sterile gauze pads to stop bleeding\n- Adhesive bandages of various sizes to cover cuts and scrapes\n- Bandages to secure the dressings in place and to support injured joints\n- Disposable gloves to avoid cross-contamination\n- Antiseptics such as alcohol, povidone-iodine, or hydrogen peroxide to clean wounds\n- Pain relievers such as acetaminophen or ibuprofen to alleviate pain\n- Medications for allergies, upset stomachs, or nausea, as needed\n- Scissors to cut bandages and dressings\n- Tweezers to remove splinters or foreign objects from the skin\n- A survival blanket to help prevent hypothermia or maintain body heat in case of an emergency."
+            }
+            ]
+            }
+        ],
+        "isPremium": false
+    },
+    {
         "uid": "11",
         "title": "Food",
         "subtitle": "Storage, Preparation, Cooking",

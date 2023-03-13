@@ -1,13 +1,424 @@
 [
-   
-   {
-       "uid": "11",
-       "title": "La nourriture",
-       "subtitle": "stockage, préparation, cuissons",
-       "image": "food",
-       "links": [],
-       "descriptionShort": "Apprenez comment vous préparer pour une situation d'urgence en matière de nourriture. Ce guide vous donne des conseils pratiques pour le stockage des aliments, les techniques de conservation, les recettes et les techniques de cuisson. Vous apprendrez également comment choisir les bons ustensiles de cuisine et comment gérer la sécurité alimentaire.",
-       "descriptionLong": "Dans une situation de crise, il est essentiel de pouvoir se nourrir. Cependant, cela peut être difficile si vous ne savez pas comment stocker, préparer et cuire les aliments correctement. Ce guide vous donnera les informations nécessaires pour vous aider à survivre grâce à la nourriture.\n\nTout d'abord, nous vous expliquerons comment stocker les aliments de manière appropriée pour une longue durée de vie et une conservation maximale des nutriments. Vous apprendrez également les différentes techniques de conservation des aliments, telles que la déshydratation et la mise en conserve.\n\nEnsuite, nous vous donnerons des recettes simples mais savoureuses pour que vous puissiez cuisiner avec les aliments que vous avez stockés. Nous inclurons également des informations sur les épices et les herbes que vous pouvez cultiver pour ajouter de la saveur à vos plats.\n\nNous aborderons également les différentes techniques de cuisson que vous pouvez utiliser en cas de crise, y compris la cuisson sur un feu de camp ou avec un four solaire. Nous vous montrerons également comment choisir les bons ustensiles de cuisine pour une cuisson efficace.\n\nEnfin, nous discuterons de la sécurité alimentaire et des précautions à prendre pour éviter de tomber malade en mangeant des aliments mal conservés. Nous inclurons également des informations sur la manière de trouver de l'eau potable et de l'utiliser pour la cuisine et la consommation.\n\nAvec ces conseils pratiques, vous serez mieux préparé pour survivre en cas de crise grâce à la nourriture.",
+    {
+        "uid": "12",
+        "title": "Médecine & premiers soins",
+        "subtitle": "Préparation, compétences, matériels ...",
+        "image": "firstAid",
+        "links": [],
+        "descriptionShort": "Être préparé aux premiers soins peut faire la différence entre la vie et la mort dans une situation d'urgence. Cette checklist vous aidera à vous assurer que vous avez tout ce dont vous avez besoin pour prodiguer les premiers soins, y compris des trousses de secours, des livres sur les premiers soins et les plantes médicinales, des compétences en survie médicale, une formation de premiers secours et du matériel de base pour la stérilisation.",
+        "descriptionLong": " La préparation aux premiers secours est essentielle pour toute personne souhaitant être prête à affronter une situation de crise. Cela peut être un accident, une catastrophe naturelle ou une pandémie, il est important de savoir comment réagir et prodiguer les premiers soins. La première étape est de s'assurer que vous disposez d'une trousse de secours transportable contenant tous les articles nécessaires, tels que des pansements, des compresses, des bandages, des antiseptiques, des ciseaux et des gants. En outre, il est recommandé de disposer de livres sur les premiers soins, les plantes médicinales et les médicaments pour vous aider à mieux comprendre les soins de santé d'urgence.\n\nEn plus des livres, il est également important d'avoir des compétences en survie médicale. Cela peut inclure la capacité à effectuer une évaluation rapide de la situation et de l'état du patient, à identifier les blessures et les maladies courantes, à administrer les premiers soins, à stabiliser le patient, à évacuer et à transporter les blessés. Avoir des compétences de base en matière de survie médicale peut vous aider à vous sentir plus confiant et plus préparé pour faire face à une situation de crise.\n\nSuivre une formation de premiers secours est une autre étape importante. Cela vous aidera à acquérir des compétences supplémentaires et des connaissances sur les premiers soins, à vous familiariser avec les différents types de blessures et de maladies et à apprendre à utiliser correctement les différents outils et équipements médicaux. Les formations de premiers secours sont souvent proposées dans les centres de secours locaux, les centres de formation et les organisations communautaires.\n\nEnfin, la stérilisation est une étape cruciale pour éviter les infections et les complications lors de la fourniture de soins médicaux d'urgence. Il est important de disposer de matériel de base pour la stérilisation, tels que des lingettes antiseptiques, de l'eau bouillie, du savon et des gants stériles. En suivant ces étapes de préparation aux premiers soins, vous serez mieux équipé pour faire face aux situations d'urgence et prodiguer les premiers soins de manière efficace et sécurisée.",
+        "items": [
+            {
+            "id": "BASIC_TOOLS",
+            "title": "J'ai du matériel de base",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.primalsurvivor.net/survival-gear-list/",
+            "description": "lien web",
+            "title": "Liste de matériel de survie"
+            },
+            {
+            "url": "https://www.decathlon.fr/c/837016-equipement-de-survie",
+            "description": "lien web",
+            "title": "Matériel de survie chez Decathlon"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Avoir du matériel de base est crucial pour être prêt à faire face à une situation d'urgence. Voici pourquoi :"
+            },
+            {
+            "type": "bullet",
+            "value": "Le matériel de base peut aider à couvrir les besoins essentiels tels que l'eau, la nourriture, le logement, la sécurité et les premiers soins."
+            },
+            {
+            "type": "bullet",
+            "value": "Il peut augmenter les chances de survie et de sécurité dans des situations imprévues, comme une panne de courant ou une catastrophe naturelle."
+            },
+            {
+            "type": "bullet",
+            "value": "Il peut aider à réduire le stress et l'anxiété en sachant que l'on est prêt à faire face à des situations d'urgence."
+            },
+            {
+            "type": "text",
+            "value": "Voici quelques exemples de matériel de base :"
+            },
+            {
+            "type": "bullet",
+            "value": "Un sac à dos pour ranger et transporter le matériel de survie."
+            },
+            {
+            "type": "bullet",
+            "value": "Un kit de premiers soins pour traiter les blessures mineures."
+            },
+            {
+            "type": "bullet",
+            "value": "Une source d'eau potable, telle qu'une bouteille d'eau ou une gourde avec un système de filtration."
+            },
+            {
+            "type": "bullet",
+            "value": "Des aliments non périssables, tels que des barres énergétiques, des fruits secs ou de la nourriture en conserve."
+            },
+            {
+            "type": "bullet",
+            "value": "Des vêtements adaptés aux conditions météorologiques, comme une veste imperméable et des chaussures de randonnée."
+            },
+            {
+            "type": "bullet",
+            "value": "Un couteau polyvalent pour couper, tailler et ouvrir des emballages."
+            },
+            {
+            "type": "bullet",
+            "value": "Un briquet ou des allumettes pour allumer un feu."
+            },
+            {
+            "type": "bullet",
+            "value": "Une lampe de poche ou une lampe frontale pour voir dans l'obscurité."
+            }
+            ]
+            },
+            {
+            "id": "FIRST_AID_COURSE",
+            "title": "J'ai suivi une formation de premiers secours",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.croix-rouge.fr/Je-me-forme/Particuliers/1ers-Secours",
+            "description": "site web",
+            "title": "Formation premiers secours Croix-Rouge française"
+            },
+            {
+            "url": "https://www.pompiers.fr/page/le-certificat-d-aptitude-au-secourisme-cae1",
+            "description": "site web",
+            "title": "Le certificat d'aptitude au secourisme (CAE1) - Sapeurs-Pompiers de France"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Avoir suivi une formation de premiers secours est essentiel pour la préparation à des situations d'urgence. Voici pourquoi :"
+            },
+            {
+            "type": "bullet",
+            "value": "En cas d'accident ou de maladie soudaine, les premiers secours peuvent sauver des vies en évitant l'aggravation de l'état de la victime avant l'arrivée des secours professionnels."
+            },
+            {
+            "type": "bullet",
+            "value": "La formation aux premiers secours permet également de savoir comment réagir face à différentes situations d'urgence, qu'il s'agisse de brûlures, de fractures, d'étouffements, d'arrêts cardiaques, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Elle permet également de se préparer à faire face à des situations d'urgence plus larges, comme une catastrophe naturelle, un attentat ou une situation de conflit armé."
+            },
+            {
+            "type": "bullet",
+            "value": "Il existe de nombreuses organisations qui proposent des formations de premiers secours, notamment la Croix-Rouge française, les Sapeurs-Pompiers de France ou encore des associations locales de secourisme."
+            }
+            ]
+            },
+            {
+            "id": "SURVIVAL_SKILL",
+            "title": "Compétences en survie médicale",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.passeportsante.net/fr/Actualites/Dossiers/DossierComplexe.aspx?doc=compenser-les-carences-nutritionnelles-en-situation-de-crise",
+            "description": "lien web",
+            "title": "Comment compenser les carences nutritionnelles en situation de crise"
+            },
+            {
+            "url": "https://www.sante-sur-le-net.com/medecine-durgence/",
+            "description": "lien web",
+            "title": "Médecine d'urgence"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Avoir des compétences en survie médicale est crucial pour faire face à des situations d'urgence où des soins médicaux professionnels ne sont pas disponibles. Voici pourquoi :"
+            },
+            {
+            "type": "bullet",
+            "value": "En cas de catastrophe naturelle ou d'autres situations d'urgence, les services médicaux peuvent être débordés, ce qui peut rendre l'accès aux soins médicaux difficile, voire impossible."
+            },
+            {
+            "type": "bullet",
+            "value": "Les compétences en survie médicale peuvent aider à sauver des vies en fournissant des soins de base tels que le nettoyage des plaies, le traitement des brûlures et des fractures, la gestion des infections, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Les compétences en survie médicale peuvent également être utiles pour prévenir les maladies et les blessures en apprenant à identifier les signes avant-coureurs et à prendre des mesures préventives."
+            },
+            {
+            "type": "text",
+            "value": "Voici quelques exemples de compétences en survie médicale et des lieux où vous pouvez trouver des informations pour les acquérir :"
+            },
+            {
+            "type": "bullet",
+            "value": "Premiers soins de base : connaître les gestes de premiers secours, comment nettoyer et traiter une plaie, comment effectuer une RCR, etc. Des informations peuvent être trouvées dans des manuels de secourisme, des cours de secourisme, ou en ligne sur des sites tels que la Croix-Rouge."
+            },
+            {
+            "type": "bullet",
+            "value": "Compétences en nutrition : savoir comment identifier et préparer des aliments sains en cas de pénurie de nourriture ou de crise alimentaire. Des informations peuvent être trouvées dans des livres sur la survie alimentaire, des guides de nutrition d'urgence, ou en ligne sur des sites tels que Passeport Santé."
+            },
+            {
+            "type": "bullet",
+            "value": "Compétences en médecine d'urgence : connaître les symptômes des maladies et des blessures courantes, comment les traiter et les prévenir. Des informations peuvent être trouvées dans des manuels de médecine d'urgence, des cours de secourisme avancés, ou en ligne sur des sites tels que Santé sur le Net."
+            }
+            ]
+            },
+            {
+            "id": "MEDICINE_BOOKS",
+            "title": "J'ai des livres de médecines",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.pharmaciengiphar.com/conseil-sante/phytotherapie-plantes-medicinales",
+            "description": "lien web",
+            "title": "La phytothérapie et les plantes médicinales"
+            },
+            {
+            "url": "https://www.who.int/medicines/publications/traditional/trm_strategy14_23.pdf",
+            "description": "pdf",
+            "title": "WHO traditional medicine strategy"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Posséder des livres de médecines est important pour plusieurs raisons :"
+            },
+            {
+            "type": "bullet",
+            "value": "Ils permettent de se renseigner sur les propriétés et les utilisations de différentes plantes médicinales."
+            },
+            {
+            "type": "bullet",
+            "value": "Ils peuvent aider à identifier les plantes médicinales et à les utiliser de manière sûre et efficace."
+            },
+            {
+            "type": "bullet",
+            "value": "Ils peuvent également fournir des informations sur les interactions médicamenteuses et les effets secondaires des plantes médicinales."
+            },
+            {
+            "type": "text",
+            "value": "Voici quelques exemples de lieux où l'on peut trouver des informations sur les plantes médicinales :"
+            },
+            {
+            "type": "bullet",
+            "value": "Les librairies et les bibliothèques proposent des livres spécialisés sur les plantes médicinales."
+            },
+            {
+            "type": "bullet",
+            "value": "Les sites web de santé proposent également des informations fiables sur les plantes médicinales, comme celui de Pharmaciens Giphar."
+            },
+            {
+            "type": "bullet",
+            "value": "L'Organisation Mondiale de la Santé propose également des stratégies pour promouvoir l'utilisation de la médecine traditionnelle, y compris les plantes médicinales, comme dans son document 'WHO traditional medicine strategy'."
+            }
+            ]
+            },
+            {
+            "id": "BOOK-PLANTS",
+            "title": "J'ai des livres sur les plantes médicinales",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.pharmacien-naturopathe.fr/plantes-medicinales/",
+            "description": "Site web",
+            "title": "Pharmacien-naturopathe.fr"
+            },
+            {
+            "url": "https://www.passeportsante.net/fr/Actualites/Dossiers/DossierComplexe.aspx?doc=phytotherapie_dossier",
+            "description": "Site web",
+            "title": "Passeportsante.net"
+            },
+            {
+            "url": "https://www.satoriz.fr/",
+            "description": "Site web",
+            "title": "Satoriz.fr"
+            },
+            {
+            "url": "https://www.amazon.fr/Larousse-Plantes-m%C3%A9dicinales-Sophie-Macheteau/dp/2035896981",
+            "description": "Livre",
+            "title": "Larousse des plantes médicinales"
+            },
+            {
+            "url": "https://www.amazon.fr/Grand-guide-phytotherapie-Christian-BOUQUIN/dp/2844455996",
+            "description": "Livre",
+            "title": "Le Grand guide de la phytothérapie"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Les plantes médicinales sont des ressources naturelles importantes pour la santé et le bien-être humains. Voici pourquoi :"
+            },
+            {
+            "type": "bullet",
+            "value": "Elles sont utilisées depuis des milliers d'années pour traiter une variété de problèmes de santé, allant des maux de tête aux maladies cardiaques."
+            },
+            {
+            "type": "bullet",
+            "value": "Elles peuvent être cultivées à la maison ou dans un jardin et sont souvent moins coûteuses que les médicaments sur ordonnance."
+            },
+            {
+            "type": "bullet",
+            "value": "Elles sont souvent utilisées pour traiter des symptômes plutôt que des maladies, ce qui les rend utiles pour soulager les maux de tête, les douleurs musculaires et les problèmes digestifs, par exemple."
+            },
+            {
+            "type": "text",
+            "value": "Voici quelques exemples de ressources où l'on peut trouver des informations sur les plantes médicinales :"
+            },
+            {
+            "type": "bullet",
+            "value": "Sites web spécialisés, tels que pharmacien-naturopathe.fr et passeportsante.net."
+            },
+            {
+            "type": "bullet",
+            "value": "Magasins d'aliments naturels et de produits biologiques, tels que Satoriz.fr."
+            },
+            {
+            "type": "bullet",
+            "value": "Livres spécialisés, tels que le Larousse des plantes médicinales et Le Grand guide de la phytothérapie."
+            }
+            ]
+            },
+            {
+            "id": "BOOK-FIRST-AID",
+            "title": "J'ai des livres sur les premiers soins",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.croix-rouge.fr/Je-me-forme/Particuliers/Les-6-gestes-de-base/APPRENDRE-LES-PREMIERS-SECOURS",
+            "description": "Site Web",
+            "title": "Les 6 gestes de base"
+            },
+            {
+            "url": "https://www.prim.net/risques/menaces-technologiques/les-risques-technologiques-5857.html",
+            "description": "Site Web",
+            "title": "Risques technologiques"
+            },
+            {
+            "url": "https://www.who.int/fr/news-room/questions-et-réponses/item/les-premiers-secours-comment-peuvent-ils-sauver-des-vies",
+            "description": "Site Web",
+            "title": "Les premiers secours - Comment peuvent-ils sauver des vies?"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Avoir des livres sur les premiers soins peut être extrêmement utile dans de nombreuses situations d'urgence. Voici pourquoi :"
+            },
+            {
+            "type": "bullet",
+            "value": "Les livres sur les premiers soins fournissent des instructions détaillées sur les techniques de premiers secours, ce qui peut aider à sauver des vies en cas d'urgence."
+            },
+            {
+            "type": "bullet",
+            "value": "Ils peuvent fournir des informations précieuses sur les différents types de blessures, maladies ou autres situations d'urgence et comment y faire face."
+            },
+            {
+            "type": "bullet",
+            "value": "Ils peuvent également aider à prévenir les accidents et les blessures en fournissant des conseils sur la sécurité au travail et à la maison."
+            },
+            {
+            "type": "text",
+            "value": "Il existe de nombreux endroits où vous pouvez trouver des informations sur les premiers soins, notamment :"
+            },
+            {
+            "type": "bullet",
+            "value": "Les sites Web des organismes gouvernementaux ou des organisations telles que la Croix-Rouge, qui offrent des cours de formation aux premiers secours."
+            },
+            {
+            "type": "bullet",
+            "value": "Les librairies, où vous pouvez trouver des livres sur les premiers soins et la santé en général."
+            },
+            {
+            "type": "bullet",
+            "value": "Les bibliothèques, où vous pouvez emprunter des livres sur les premiers soins et autres sujets connexes."
+            }
+            ]
+            },
+            {
+                "id": "FIRST-AID-KIT",
+                "title": "J'ai une trousse de secours transportable",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [
+                    {
+                        "url": "https://www.croix-rouge.fr/Je-me-forme/Particuliers/Prevention-et-securite/Se-former-aux-premiers-secours",
+                        "description": "lien web",
+                        "title": "Formation aux premiers secours"
+                    },
+                    {
+                        "url": "https://www.pharmashopi.com/ma-pharmacie/trousses-de-secours",
+                        "description": "lien web",
+                        "title": "Trousses de secours"
+                    },
+                    {
+                        "url": "https://www.pharmashopi.com/ma-pharmacie/trousse-de-secours-professionnelle",
+                        "description": "lien web",
+                        "title": "Trousses de secours professionnelles"
+                    }
+                ],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Il est important d'avoir une trousse de secours transportable en cas d'urgence. Voici pourquoi :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "En cas d'accident ou de blessure, une trousse de secours permet de prodiguer les premiers soins rapidement et efficacement, avant l'arrivée des secours professionnels."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Une trousse de secours transportable permet d'avoir les fournitures médicales nécessaires à portée de main, que ce soit en camping, en randonnée, en voyage ou en cas de catastrophe naturelle."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "La trousse de secours peut être adaptée à vos besoins personnels, en y incluant des médicaments spécifiques, des pansements pour les ampoules, des anti-inflammatoires, etc."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Il est possible de trouver des informations sur les trousses de secours et les fournitures médicales nécessaires auprès des organismes de secours, des sites web spécialisés ou encore des pharmacies."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Une trousse de secours doit contenir des fournitures de base pour aider à traiter les blessures mineures et les urgences médicales. Voici une liste des éléments recommandés :"
+                    },
+                    {
+                        "type": "text",
+                        "value": "-Des compresses stériles pour arrêter les saignements\n- Des pansements adhésifs de différentes tailles pour couvrir les coupures et les éraflures\n- Des bandages pour maintenir les pansements en place et pour soutenir les articulations blessées\n- Des gants jetables pour éviter la contamination croisée\n- Des antiseptiques tels que l'alcool, la povidone iodée ou le peroxyde d'hydrogène pour nettoyer les plaies\nDes analgésiques tels que l'acétaminophène ou l'ibuprofène pour soulager la douleur\n- Des médicaments pour les allergies, les maux d'estomac ou les nausées, selon les besoins\n- Des ciseaux pour couper les pansements et les bandages\n- Des pinces pour enlever les échardes ou les objets étrangers de la peau\nUne couverture de survie pour aider à prévenir l'hypothermie ou à maintenir la chaleur corporelle en cas d'urgence."
+                    }
+                ]
+            }
+        ],
+        "isPremium": false
+    },
+    {
+        "uid": "11",
+        "title": "La nourriture",
+        "subtitle": "stockage, préparation, cuissons",
+        "image": "food",
+        "links": [],
+        "descriptionShort": "Apprenez comment vous préparer pour une situation d'urgence en matière de nourriture. Ce guide vous donne des conseils pratiques pour le stockage des aliments, les techniques de conservation, les recettes et les techniques de cuisson. Vous apprendrez également comment choisir les bons ustensiles de cuisine et comment gérer la sécurité alimentaire.",
+        "descriptionLong": "Dans une situation de crise, il est essentiel de pouvoir se nourrir. Cependant, cela peut être difficile si vous ne savez pas comment stocker, préparer et cuire les aliments correctement. Ce guide vous donnera les informations nécessaires pour vous aider à survivre grâce à la nourriture.\n\nTout d'abord, nous vous expliquerons comment stocker les aliments de manière appropriée pour une longue durée de vie et une conservation maximale des nutriments. Vous apprendrez également les différentes techniques de conservation des aliments, telles que la déshydratation et la mise en conserve.\n\nEnsuite, nous vous donnerons des recettes simples mais savoureuses pour que vous puissiez cuisiner avec les aliments que vous avez stockés. Nous inclurons également des informations sur les épices et les herbes que vous pouvez cultiver pour ajouter de la saveur à vos plats.\n\nNous aborderons également les différentes techniques de cuisson que vous pouvez utiliser en cas de crise, y compris la cuisson sur un feu de camp ou avec un four solaire. Nous vous montrerons également comment choisir les bons ustensiles de cuisine pour une cuisson efficace.\n\nEnfin, nous discuterons de la sécurité alimentaire et des précautions à prendre pour éviter de tomber malade en mangeant des aliments mal conservés. Nous inclurons également des informations sur la manière de trouver de l'eau potable et de l'utiliser pour la cuisine et la consommation.\n\nAvec ces conseils pratiques, vous serez mieux préparé pour survivre en cas de crise grâce à la nourriture.",
        "items": [
            {
            "id": "COOKING-TOOLS",

@@ -1,5 +1,22 @@
 // swiftlint:disable all
 
+Premiers soins
+- de quoi se soigner
+- de quoi lire pour apprendre les soins
+- livres plantes medicinales 
+- Manuels de premiers secours
+- Sterilisation
+
+Pharmacie
+//    • anti DOuleur
+//    • complement alimentaire
+//    • premiers secours
+//    • bandes et pansements
+//    • pommades
+//    • livres sur les medicaments qu’no trouve a l’etat naturel
+//    • Masques FFP2 et protections spécifiques à votre milieu.
+
+
 
 LUNDI // Gardening
 //      • fruits et légumes
@@ -21,10 +38,6 @@ MARDI //  • Abri
 //    • cave
 //    • Détecteurs de monoxyde de carbone et détecteurs de fumée à piles.
 //  • durabilté
-MERCREDI // Premiers soins
-//    • de quoi se soigner
-//    • de quoi lire pour apprendre les soins
-//  • Construction
 MERCREDI // Chaleur
 //    • poele a bois
 //    • ramonage
@@ -67,7 +80,6 @@ SAMEDI // Jardinage,
 SAMEDI // Cuisine,
 //  Guide de survie,
 // Livre de buschcraft,
-// Manuels de premiers secours,
 // Vie à l’ancienne,
 // Nature (reconnaître les animaux, les plantes, les arbres…),
 // Manuels de pêche et de chasse,
@@ -81,14 +93,6 @@ DIMANCHE //  • Hygiene
 //    • Kit de couture a la main
 //    • Papier toilettes
 //    • vetements
-LUNDI //  • Pharmacie
-//    • anti DOuleur
-//    • complement alimentaire
-//    • premiers secours
-//    • bandes et pansements
-//    • pommades
-//    • livres sur les medicaments qu’no trouve a l’etat naturel
-//    • Masques FFP2 et protections spécifiques à votre milieu.
 LUNDI //  • occupations
 //    • jeux de soicéité
 //    • films
