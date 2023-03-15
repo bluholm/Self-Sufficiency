@@ -101,7 +101,7 @@ custom_rules:
     name: "Multiple Empty Lines"
     regex: '((?:\s*\n){3,})'
     message: "There are too many line breaks"
-    severity: error
+    severity: warning
   non_weak_delegate_datasource:
     included: ".*.swift"
     name: "Retain Cycle"

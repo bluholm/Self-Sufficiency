@@ -1,5 +1,5 @@
 //
-//  SettingsScheme.swift
+//  SchemeService.swift
 //  collapse
 //
 //  Created by Marc-Antoine BAR on 2023-02-11.
@@ -8,7 +8,7 @@
 import Foundation
 
 /// Model check langage Scheme Directly on UserDefault Apple Languages.
-final class SettingScheme {
+final class SchemeService {
     
     /// This method returns a string that represents the language of the user's device. If the language is French, it returns "french", otherwise it returns "english".
     /// - Returns: `french` or `english` String word

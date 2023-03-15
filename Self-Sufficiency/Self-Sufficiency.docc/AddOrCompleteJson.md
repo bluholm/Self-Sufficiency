@@ -1,6 +1,6 @@
 # Add or Complete A Json
 
-How to add a new Topic , a new items , a new links and everything in The Json.
+How to add a new Topic, a new Item, a new Link and everything in The Json.
 
 ## Overview
 
@@ -8,56 +8,61 @@ How to add a new Topic , a new items , a new links and everything in The Json.
 
 To ensure that both JSON files for each language are correct, it is absolutely necessary for them to pass all the planned tests. These tests verify elements such as the number of topics in each file, the number of items, the coherence of the contents, etc. The tests are commented and visible in `CollapseTestJson.swift`.
 
+There are now 3 separate JSON files for each language: one for topics, one for items (including the new IDTopic), and one for links.
+
 ### TopicElement
-To add a new element to the Json, you will need to add the following Json.
+To add a new element to the Json, you will need to add the following Json in the `topics.json` file.
 
 ```
 {
-    "uid": "1",
-    "title": "Water",
-    "subtitle": "subtitle of Water.",
-    "image": "water",
-    "links": [],
-    "descriptionShort": "",
-    "descriptionLong": "",
-    "items": [],
-    "isPremium": false
+"uid": "1",
+"title": "Water",
+"subtitle": "subtitle of Water.",
+"image": "water",
+"descriptionShort": "",
+"descriptionLong": "",
+"items": [],
+"links": [],
+"isPremium": false
 }
 ```
 
-Then you will need to complete the topic's UID, title, mode, and other elements of ``TopicElement``.
+
+Then you will need to complete the topic's UID, title, and other elements of ``TopicElement``.
 
 ### Items
-Then, as many items as necessary must be added to the section, accompanied by different String types, as well as a 3-letter Id (e.g. AAA, ABB, etc.). These ids must be unique, otherwise the unit tests will not pass.
+Then, as many items as necessary must be added to the `items.json` file, accompanied by different String types, as well as a 3-letter Id (e.g. AAA, ABB, etc.). These ids must be unique, otherwise the unit tests will not pass.
 
+Also, include the "idTopic" field to connect the item to its corresponding topic.
 
 ```
 {
-    "id": "AAC",
-    "title": "",
-    "mode": "",
-    "subtitle": "",
-    "image": "",
-    "links": [],
-    "content": [
-        {
-            "type": "",
-            "value": ""
-        }
-    ]
+"id": "MAKE-PROCESS",
+"id_topic": "1",
+"title": "",
+"mode": "",
+"content": [
+{
+"type": "",
+"value": ""
+}
+],
+"links": []
 }
 ```
 
-Finally, different contents types such as text, list, bullet can be added.
+
+Finally, different content types such as text, list, bullet can be added.
 
 ### Links
 
-To add a link please find a example : 
+To add a link, please add an entry in the `link.json` file with the following example:
+
 ```
 {
-    "url": "http://google.com",
-    "description": "description of link",
-    "title": "title of the link"
+"url": "http://google.com",
+"description": "description of link",
+"title": "title of the link"
 }
 ```
 

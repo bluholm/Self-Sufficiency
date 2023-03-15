@@ -20,7 +20,7 @@ final class AllTopicsViewController: UIViewController {
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadDataFromJson()
+        //FIXME: - loadDataFromJson()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -32,8 +32,8 @@ final class AllTopicsViewController: UIViewController {
     }
     
     // MARK: - Privates
-    private func loadDataFromJson() {
-        JsonService.parse(file: SettingScheme.returnNameSchemeLangageFile()) { result in
+    /*private func loadDataFromJson() {
+        JsonService.parse(file: SchemeService.returnNameSchemeLangageFile()) { result in
             switch result {
             case .success(let table):
                 self.topicList = table
@@ -41,7 +41,7 @@ final class AllTopicsViewController: UIViewController {
                 print(error)
             }
         }
-    }
+    }*/
 }
 
 // MARK: - UITableViewDelegate

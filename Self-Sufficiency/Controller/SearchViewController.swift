@@ -19,12 +19,12 @@ final class SearchViewController: UIViewController {
     // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadDataFromJson()
+        //FIXME: - loadDataFromJson()
     }
 
     // MARK: - Privates
-    private func loadDataFromJson() {
-        JsonService.parse(file: SettingScheme.returnNameSchemeLangageFile()) { result in
+    /*private func loadDataFromJson() {
+        JsonService.parse(file: SchemeService.returnNameSchemeLangageFile()) { result in
             switch result {
             case .success(let table):
                 self.topicList = table
@@ -32,7 +32,7 @@ final class SearchViewController: UIViewController {
                 print(error)
             }
         }
-    }
+    }*/
 }
 
 // MARK: - UITableViewDelegate, UITableViewDataSource

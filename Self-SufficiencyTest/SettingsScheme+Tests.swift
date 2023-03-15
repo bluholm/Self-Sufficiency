@@ -14,7 +14,7 @@ final class SettingsSchemeTests: XCTestCase {
         // Given
         UserDefaults.standard.set(["fr"], forKey: "AppleLanguages")
         // When
-        let resultFrench = SettingScheme.returnNameSchemeLangageFile()
+        let resultFrench = SchemeService.returnNameSchemeLangageFile()
         // Then
         XCTAssertEqual(resultFrench, "french")
         
@@ -24,7 +24,7 @@ final class SettingsSchemeTests: XCTestCase {
         // Given
         UserDefaults.standard.set(["en"], forKey: "AppleLanguages")
         // When
-        let resultEnglish = SettingScheme.returnNameSchemeLangageFile()
+        let resultEnglish = SchemeService.returnNameSchemeLangageFile()
         // Then
         XCTAssertEqual(resultEnglish, "english")
         
@@ -33,7 +33,7 @@ final class SettingsSchemeTests: XCTestCase {
         // Given
         UserDefaults.standard.set(["es"], forKey: "AppleLanguages")
         // When
-        let resultUnknown = SettingScheme.returnNameSchemeLangageFile()
+        let resultUnknown = SchemeService.returnNameSchemeLangageFile()
         // Then
         XCTAssertEqual(resultUnknown, "english")
     }
@@ -42,7 +42,7 @@ final class SettingsSchemeTests: XCTestCase {
         // Given
         UserDefaults.standard.set(["fr"], forKey: "AppleLanguages")
         // When
-        let resultFrench = SettingScheme.langage()
+        let resultFrench = SchemeService.langage()
         // Then
         XCTAssertEqual(resultFrench, "fr")
     }
@@ -51,7 +51,7 @@ final class SettingsSchemeTests: XCTestCase {
         // Given
         UserDefaults.standard.set(["en"], forKey: "AppleLanguages")
         // When
-        let resultEnglish = SettingScheme.langage()
+        let resultEnglish = SchemeService.langage()
         // Then
         XCTAssertEqual(resultEnglish, "en")
     }
@@ -60,7 +60,7 @@ final class SettingsSchemeTests: XCTestCase {
         // Given
         UserDefaults.standard.set(["es"], forKey: "AppleLanguages")
         // When
-        let resultUnknown = SettingScheme.langage()
+        let resultUnknown = SchemeService.langage()
         // Then
         XCTAssertEqual(resultUnknown, "en")
     }

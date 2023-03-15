@@ -15,16 +15,14 @@ L'application Self-Sufficiency est un guide de survie qui fournit aux utilisateu
 ** le topic principal et sa vérification ** : 
 
 ```
-Très bien , l’un des topic sera : "les premiers soins » , et dans les differents items de ma checklist j’avais penser à 
+Très bien , l’un des topic sera : "Abri / Base Camp» , et dans les differents items de ma checklist j’avais penser à 
 
-- J'ai une trousse de secours transportable
-- j'ai des livres sur les premiers soins
-- j'ai des livres plantes medicinales 
-- j'ai des livres de medecines
-- j'ai des compétence en survie médicale
-- j'ai suivi une formation de premiers secours.
-- j'ai du matériel de base
-- Sterilisation
+
+place pour stocker
+discretion
+cave
+Détecteurs de monoxyde de carbone et détecteurs de fumée à piles.
+
 
 
 Qu’en penses tu ? vois tu d’autres choses a posseder en terme de materiel et/ ou de competences dans ce domaine uniquement ?
@@ -44,7 +42,7 @@ peut tu me proposeer :
 
 **les contents :**
 ```
-Travaillons maintenant sur le premier topic : "- j'ai du matériel de base"
+Travaillons maintenant sur le premier topic : "je possde un alambic "
 
 peut tu commencer par rappeler pourquoi c'est important avec des explications, puis ensuite point par point  des exemples où des détails où bien 
  tout lieu ou l’on peut trouver des informations. 

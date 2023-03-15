@@ -1,5 +1,454 @@
 [
     {
+        "uid": "13",
+        "title": "L'hygiene",
+        "subtitle": "Savons, lessives coutures... ",
+        "image": "hygiene",
+        "links": [],
+        "descriptionShort": "Cette section abordera les compétences et les outils nécessaires pour maintenir une bonne hygiène personnelle en situation de crise. Nous explorerons comment fabriquer du savon, coudre des vêtements, faire de la lessive, créer un système pour faire chauffer de l'eau et bien plus encore. Nous discuterons également des moyens de se préparer à une pénurie de produits d'hygiène tels que le papier toilette et les éponges, ainsi que de la fabrication de masques faciaux pour se protéger contre les maladies contagieuses.",
+        "descriptionLong": "Les urgences peuvent se produire à tout moment et il est important de pouvoir prendre soin de soi dans ces situations. Que ce soit une catastrophe naturelle, une pandémie ou une autre situation d'urgence, les compétences et les ressources de base peuvent faire la différence entre la sécurité et le danger.\n\nL'un des éléments clés de la bonne hygiène personnelle est de pouvoir se laver régulièrement. Si vous êtes capable de fabriquer votre propre savon et d'avoir un système pour chauffer de l'eau, vous pouvez créer un environnement propre pour vous-même et votre famille. Si vous ne disposez pas de papier toilette, vous pouvez utiliser des lingettes ou des serviettes en papier pour vous nettoyer. Vous pouvez également apprendre à coudre pour créer des vêtements de toutes saisons et réparer les déchirures ou les trous.\n\nEn cas de pénurie de produits d'hygiène de base, il est également important de savoir comment créer vos propres éponges et produits de lessive. Apprendre à faire des masques faciaux peut également être utile pour prévenir la propagation de maladies contagieuses.\n\nEnfin, il est important de stocker des produits de base dans votre cuisine et votre salle de bain, tels que des désinfectants pour les mains, des médicaments de base, des bandages et des antiseptiques. En ayant ces articles à portée de main, vous pouvez traiter les blessures mineures et éviter les infections.\n\nEn somme, maintenir une bonne hygiène personnelle est essentiel pour rester en bonne santé et en sécurité en temps de crise. En apprenant ces compétences de base et en stockant des produits de base, vous pouvez être mieux préparé pour faire face à tout type d'urgence.",
+        "items": [
+            {
+            "id": "ASC",
+            "title": "Je sais créer un système pour faire chauffer de l'eau",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.natureetdecouvertes.com/conseils/comment-faire-du-feu-nos-meilleures-techniques-7173",
+            "description": "lien web",
+            "title": "Comment faire du feu : nos meilleures techniques"
+            },
+            {
+            "url": "https://www.randozone.com/dossiers/69/les-differents-types-de-feux-en-bivouac.html",
+            "description": "lien web",
+            "title": "Les différents types de feux en bivouac"
+            },
+            {
+            "url": "https://www.natureetdecouvertes.com/conseils/3-techniques-pour-cuire-sans-casserole-7213",
+            "description": "lien web",
+            "title": "3 techniques pour cuire sans casserole"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Savoir comment créer un système pour faire chauffer de l'eau est essentiel en situation d'urgence pour plusieurs raisons :"
+            },
+            {
+            "type": "bullet",
+            "value": "L'eau chaude est nécessaire pour la stérilisation des instruments médicaux et des surfaces de travail."
+            },
+            {
+            "type": "bullet",
+            "value": "L'eau chaude est également utile pour la préparation des aliments et des boissons."
+            },
+            {
+            "type": "bullet",
+            "value": "Enfin, elle peut être utilisée pour se laver ou pour apporter du confort en cas de conditions météorologiques extrêmes."
+            },
+            {
+            "type": "text",
+            "value": "Voici quelques exemples de systèmes pour faire chauffer de l'eau :"
+            },
+            {
+            "type": "bullet",
+            "value": "Feu de camp : un feu de camp peut être utilisé pour faire bouillir de l'eau dans une casserole ou dans un récipient en métal."
+            },
+            {
+            "type": "bullet",
+            "value": "Réchaud à gaz : un réchaud à gaz portable est une option pratique pour faire chauffer de l'eau rapidement. Il peut être utilisé avec des cartouches de gaz et est facile à transporter."
+            },
+            {
+            "type": "bullet",
+            "value": "Réchaud à bois : un réchaud à bois est un système de chauffage économique et écologique. Il est alimenté par des brindilles, des feuilles ou des petits morceaux de bois."
+            },
+            {
+            "type": "image",
+            "value": "copperHeat"
+            }
+            ]
+            },
+            {
+                "id": "VT",
+                "title": "J'ai des vêtements toutes saisons",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [
+                    {
+                        "url": "https://www.decathlon.fr/c/materiel-randonnee/_/N-5ct5?gclid=Cj0KCQiAtK7uBRDUARIsAM-goal9a0vSMzHapVwA_q6nvb7V2e50cU89O6QzJfvY99-B9RzvT8T7Ww0aAkChEALw_wcB",
+                        "description": "lien web",
+                        "title": "Matériel de randonnée chez Decathlon"
+                    },
+                    {
+                        "url": "https://www.randonner-leger.org/wiki/doku.php?id=couture",
+                        "description": "wiki",
+                        "title": "Coudre ses vêtements de randonnée"
+                    }
+                ],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Avoir des vêtements adaptés à toutes les saisons est crucial pour être prêt à faire face à des situations imprévues. Voici pourquoi :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les conditions météorologiques peuvent changer rapidement et sans préavis, et des vêtements appropriés peuvent vous protéger des éléments, vous garder au chaud ou au frais selon les conditions et vous aider à prévenir les blessures."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Des vêtements bien choisis peuvent aider à prévenir les maladies liées au froid ou à la chaleur, telles que l'hypothermie ou la déshydratation."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les vêtements sont également importants pour la sécurité lors de la randonnée ou d'autres activités extérieures, car des vêtements visibles et colorés peuvent aider les secours à vous trouver plus facilement en cas d'urgence."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Voici quelques exemples de vêtements à avoir dans votre équipement de préparation aux situations d'urgence :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Un manteau imperméable pour la pluie et la neige."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Des couches de vêtements qui peuvent être retirées ou ajoutées facilement pour s'adapter aux conditions changeantes, comme des pulls en laine, des vestes polaires et des chemises légères."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Des chapeaux et des gants pour vous protéger du froid et du soleil."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Des chaussures adaptées à la marche en montagne, avec une bonne adhérence sur les surfaces humides et accidentées."
+                    }
+                ]
+            },
+            {
+            "id": "NO_TP",
+            "title": "Je sais faire sans papier toilettes",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Savoir faire sans papier toilettes est une compétence importante en termes de préparation à des situations d'urgence. En cas de crise ou de catastrophe naturelle, le papier toilette peut devenir rare et difficile à trouver. Voici quelques méthodes pour s'en passer :"
+            },
+            {
+            "type": "bullet",
+            "value": "Utiliser de l'eau et du savon : cette méthode est courante dans de nombreuses cultures, elle est plus hygiénique que l'utilisation de papier toilette et ne nécessite aucun matériel particulier. Il suffit de mouiller un gant ou un chiffon avec de l'eau et du savon pour se nettoyer après être allé aux toilettes. "
+            },
+            {
+            "type": "bullet",
+            "value": "Utiliser des feuilles ou des plantes : certaines plantes peuvent être utilisées pour se nettoyer après être allé aux toilettes. Par exemple, les feuilles d'ortie, de chêne, de bouleau ou de mûrier peuvent être utilisées. Il est important de bien identifier les plantes avant de les utiliser, car certaines peuvent être toxiques. "
+            },
+            {
+            "type": "bullet",
+            "value": "Fabriquer des lingettes réutilisables : des lingettes en tissu réutilisables peuvent être fabriquées à partir de vieux vêtements ou de draps. Il suffit de découper des carrés de tissu, de les coudre ensemble et de les laver après chaque utilisation. "
+            },
+            {
+            "type": "bullet",
+            "value": "Utiliser du papier journal ou du papier recyclé : cette méthode est moins hygiénique que les autres, mais peut être utilisée en cas d'urgence. Il est important de ne pas jeter le papier dans les toilettes pour éviter de boucher les canalisations. "
+            },
+            {
+            "type": "text",
+            "value": "Il est important de se rappeler que l'hygiène est essentielle, surtout en situation d'urgence. Il est donc recommandé de se laver les mains soigneusement après être allé aux toilettes, quelle que soit la méthode utilisée."
+            }
+            ]
+            },
+            {
+            "id": "TOILET_PAPER",
+            "title": "J'ai du papier toilettes d'avance",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Avoir du papier toilette d'avance est une étape essentielle de la préparation pour les situations d'urgence. Voici pourquoi :"
+            },
+            {
+            "type": "bullet",
+            "value": "Le papier toilette est un produit de première nécessité pour maintenir l'hygiène personnelle, éviter les infections et les maladies, et prévenir la propagation de bactéries et de virus."
+            },
+            {
+            "type": "bullet",
+            "value": "En cas d'urgence, les magasins peuvent être fermés ou avoir des rayons vides. Avoir du papier toilette d'avance garantit que vous aurez accès à ce produit vital même en cas de pénurie."
+            },
+            {
+            "type": "text",
+            "value": "Il est recommandé d'avoir au moins deux semaines de stock de papier toilette pour chaque personne dans votre foyer."
+            },
+            {
+            "type": "text",
+            "value": "Pour en savoir plus sur la préparation de votre kit de survie, consultez les ressources suivantes :"
+            }
+            ]
+            },
+            {
+            "id": "SEWING_KIT",
+            "title": "Je sais coudre, je possède un kit de couture",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.pratique.fr/fabriquer-ses-vetements-et-accessoires.html",
+            "description": "lien web",
+            "title": "Fabriquer ses vêtements et accessoires"
+            },
+            {
+            "url": "https://www.petitcitron.com/blog/comment-fabriquer-une-aiguille-couture/",
+            "description": "lien web",
+            "title": "Comment fabriquer une aiguille de couture"
+            },
+            {
+            "url": "https://www.mondedestitounis.fr/diy/fabriquer-ses-eponges-tawashi.html",
+            "description": "lien web",
+            "title": "Fabriquer ses éponges Tawashi"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Savoir coudre et posséder un kit de couture à la main est essentiel en cas de situation d'urgence, car cela permet de fabriquer ou de réparer des vêtements et des équipements de base. Voici pourquoi :"
+            },
+            {
+            "type": "bullet",
+            "value": "La capacité de coudre permet de prolonger la durée de vie des vêtements en effectuant des réparations simples, telles que le remplacement de boutons ou la couture de trous ou de déchirures. Cela permet également de fabriquer de nouveaux vêtements à partir de vieux tissus ou de matériaux recyclés, ce qui peut être utile en cas de pénurie de vêtements."
+            },
+            {
+            "type": "bullet",
+            "value": "Le kit de couture à la main est un outil compact et portable qui peut être facilement stocké dans un sac d'urgence ou un kit de survie. Il peut être utilisé pour réparer des vêtements, des sacs, des chaussures et d'autres équipements, ainsi que pour fabriquer des éponges ou d'autres articles ménagers."
+            },
+            {
+            "type": "text",
+            "value": "Il existe de nombreuses ressources en ligne pour apprendre à coudre, même pour les débutants. Les tutoriels vidéo et les guides étape par étape peuvent être facilement trouvés sur des sites web tels que Pratique.fr. En outre, il est également possible de fabriquer des aiguilles de couture improvisées à partir de matériaux tels que des épingles à cheveux ou des os d'animaux, comme expliqué sur Petitcitron.com."
+            },
+            {
+            "type": "text",
+            "value": "En plus de coudre, il est également utile de savoir fabriquer des éponges, telles que les éponges Tawashi, qui peuvent être utilisées pour nettoyer les surfaces et les ustensiles de cuisine. Les instructions pour fabriquer des éponges Tawashi peuvent être trouvées sur des sites web tels que MondeDesTitiounis.fr. "
+            }
+            ]
+            },
+            {
+                "id": "MAKE-SOAP",
+                "title": "Le Savon",
+                "mode": "essential",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Le savon est un produit essentiel pour l'hygiène et la propreté. Il est utilisé pour laver les mains, le corps, les vêtements et même la vaisselle. Il permet d'éliminer les bactéries, les virus et les saletés. En fabriquer soi-même peut être utile en cas de pénurie ou pour des raisons écologiques. Voici une recette simple pour fabriquer son propre savon :"
+                    },
+                    {
+                        "type": "image",
+                        "value": "savon_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Ingrédients : huile d'olive, huile de coco, soude caustique, eau, huiles essentielles (facultatif)"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Étapes :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1. Mélanger 500g d'huile d'olive et 250g d'huile de coco dans une casserole et faire chauffer à feu doux."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2. Dans un autre récipient, mélanger 63g de soude caustique et 150ml d'eau (attention, cette étape doit être réalisée avec des gants de protection et dans un endroit bien ventilé)."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "3. Ajouter lentement la solution de soude caustique à la casserole d'huiles, tout en mélangeant constamment."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "4. Continuer de mélanger jusqu'à ce que le mélange atteigne la trace, c'est-à-dire qu'il épaississe et commence à former des motifs à la surface."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "5. Ajouter éventuellement quelques gouttes d'huiles essentielles pour parfumer le savon."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "6. Verser le mélange dans un moule à savon et le laisser durcir pendant 24 heures."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "7. Démouler le savon et le laisser sécher pendant environ 4 semaines avant de l'utiliser."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est important de noter que la soude caustique est un produit corrosif et dangereux. Il est donc important de prendre toutes les précautions nécessaires lors de la manipulation de cette substance. Il est également possible de fabriquer du savon sans soude caustique en utilisant de la cendre de bois, mais cette méthode est plus complexe et nécessite plus de temps."
+                    }
+                ]
+            },
+            {
+                "id": "MAKE-DETERGENT",
+                "title": "Faire sa lessive",
+                "mode": "intermediate",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "La lessive est un produit essentiel pour nettoyer nos vêtements et tissus en général. Elle permet d'éliminer les taches, les saletés et les mauvaises odeurs, tout en laissant une agréable odeur de propreté. Il existe de nombreuses recettes de lessive maison, souvent plus respectueuses de l'environnement et de notre santé que les lessives industrielles qui contiennent souvent des produits chimiques toxiques. Voici une recette simple pour fabriquer votre propre lessive maison :"
+                    },
+                    {
+                        "type": "image",
+                        "value": "lessive_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Ingrédients :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "100 g de savon de Marseille en copeaux"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2 litres d'eau"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1 cuillère à soupe de bicarbonate de soude"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est possible d'ajouter quelques gouttes d'huiles essentielles pour parfumer la lessive, mais cela reste facultatif."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Instructions :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1. Dans une casserole, faire chauffer l'eau."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2. Ajouter les copeaux de savon de Marseille et remuer jusqu'à ce qu'ils soient totalement dissous."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "3. Ajouter le bicarbonate de soude et remuer de nouveau."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "4. Retirer la casserole du feu et laisser refroidir."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "5. Une fois la lessive refroidie, la verser dans un bidon ou une bouteille en verre."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "6. Bien agiter le bidon avant chaque utilisation."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Saviez-vous que vous pouvez faire de la lessive avec du lierre ? Cette plante contient des saponines naturelles, des substances qui ont des propriétés nettoyantes et moussantes. Voici comment procéder :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Cueillir une vingtaine de feuilles de lierre (fraîches ou séchées) et les laver pour enlever toute trace de saleté."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mettre les feuilles dans une casserole et ajouter 1 litre d'eau."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Faire bouillir pendant une vingtaine de minutes, puis laisser refroidir."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Filtrer le liquide à l'aide d'une passoire pour retirer les feuilles."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mettre le liquide obtenu dans une bouteille en verre ou un récipient hermétique."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Pour laver votre linge, ajouter environ 100 ml de ce liquide à votre machine à laver."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Vous pouvez ajouter quelques gouttes d'huile essentielle de votre choix pour parfumer votre lessive."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Cette lessive naturelle est écologique, économique et facile à fabriquer chez soi. En plus, elle ne contient aucun produit chimique nocif pour l'environnement ou pour la santé."
+                    }
+                ]
+                
+            },
+            {
+            "id": "ALAMBIC",
+            "title": "Je possède un alambic",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.distilleriesprovence.com/blog/alambic-pourquoi-et-comment-en-utiliser-un",
+            "description": "lien web",
+            "title": "Alambic : pourquoi et comment en utiliser un"
+            },
+            {
+            "url": "https://www.alambic-france.com/blog/entretien-alambic-cuivre/",
+            "description": "lien web",
+            "title": "Entretenir son alambic en cuivre"
+            },
+            {
+            "url": "https://www.copper-alembic.com/fr/blog/les-differentes-parties-dun-alambic-et-leur-role",
+            "description": "lien web",
+            "title": "Les différentes parties d'un alambic et leur rôle"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Posséder un alambic peut être un atout important pour la préparation à des situations d'urgence. Voici pourquoi :"
+            },
+            {
+            "type": "image",
+            "value": "alambic"
+            },
+            {
+            "type": "bullet",
+            "value": "Un alambic permet de distiller de l'eau pour la rendre potable en cas de besoin, ce qui peut être crucial en cas d'urgence ou de catastrophe naturelle. "
+            },
+            {
+            "type": "bullet",
+            "value": "Il peut également être utilisé pour la production d'alcool, de parfums ou d'huiles essentielles à des fins médicinales ou pour l'hygiène. "
+            },
+            {
+            "type": "bullet",
+            "value": "Cependant, il est important de noter que l'utilisation d'un alambic peut être dangereuse et qu'il est nécessaire de bien comprendre son fonctionnement avant de l'utiliser. Des informations détaillées peuvent être trouvées sur des sites web spécialisés ou en consultant un expert en la matière."
+            },
+            {
+            "type": "text",
+            "value": "Pour utiliser un alambic, il faut d'abord le remplir avec le liquide que l'on souhaite distiller. Le liquide est chauffé à une température précise pour que les vapeurs se séparent des impuretés et des composants indésirables. Les vapeurs montent dans le tube de l'alambic et sont refroidies à l'aide d'un tuyau d'eau froide. Les vapeurs condensent en liquide distillé, qui est recueilli dans un récipient.\n\nIl est important de noter que l'utilisation de l'alambic nécessite une certaine expertise et des précautions de sécurité, car la distillation implique la manipulation de liquides inflammables et de vapeurs toxiques. Il est donc recommandé de se renseigner sur les techniques de distillation avant d'utiliser un alambic. Des ressources en ligne, des livres et des cours peuvent être utiles pour apprendre les techniques appropriées de distillation et les mesures de sécurité à prendre lors de l'utilisation d'un alambic."
+            }
+            ]
+            }
+        ],
+        "isPremium": false
+    }
+    ,
+    {
         "uid": "12",
         "title": "Médecine & premiers soins",
         "subtitle": "Préparation, compétences, matériels ...",
@@ -410,7 +859,8 @@
             }
         ],
         "isPremium": false
-    },
+    }
+    ,
     {
         "uid": "11",
         "title": "La nourriture",
@@ -875,8 +1325,9 @@
            }
        ],
        "isPremium": false
-   },
-   {
+   }
+    ,
+    {
         "uid": "1",
         "title": "L'eau Douce",
         "subtitle": "Filtration, collecte et stockage.",
@@ -2212,62 +2663,6 @@
                 ]
             },
             {
-                "id": "ABC",
-                "title": "Le Savon",
-                "mode": "essential",
-                "links": [],
-                "content": [
-                    {
-                        "type": "text",
-                        "value": "Le savon est un produit essentiel pour l'hygiène et la propreté. Il est utilisé pour laver les mains, le corps, les vêtements et même la vaisselle. Il permet d'éliminer les bactéries, les virus et les saletés. En fabriquer soi-même peut être utile en cas de pénurie ou pour des raisons écologiques. Voici une recette simple pour fabriquer son propre savon :"
-                    },
-                    {
-                        "type": "image",
-                        "value": "savon_fr_en"
-                    },
-                    {
-                        "type": "text",
-                        "value": "Ingrédients : huile d'olive, huile de coco, soude caustique, eau, huiles essentielles (facultatif)"
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Étapes :"
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "1. Mélanger 500g d'huile d'olive et 250g d'huile de coco dans une casserole et faire chauffer à feu doux."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "2. Dans un autre récipient, mélanger 63g de soude caustique et 150ml d'eau (attention, cette étape doit être réalisée avec des gants de protection et dans un endroit bien ventilé)."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "3. Ajouter lentement la solution de soude caustique à la casserole d'huiles, tout en mélangeant constamment."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "4. Continuer de mélanger jusqu'à ce que le mélange atteigne la trace, c'est-à-dire qu'il épaississe et commence à former des motifs à la surface."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "5. Ajouter éventuellement quelques gouttes d'huiles essentielles pour parfumer le savon."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "6. Verser le mélange dans un moule à savon et le laisser durcir pendant 24 heures."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "7. Démouler le savon et le laisser sécher pendant environ 4 semaines avant de l'utiliser."
-                    },
-                    {
-                        "type": "text",
-                        "value": "Il est important de noter que la soude caustique est un produit corrosif et dangereux. Il est donc important de prendre toutes les précautions nécessaires lors de la manipulation de cette substance. Il est également possible de fabriquer du savon sans soude caustique en utilisant de la cendre de bois, mais cette méthode est plus complexe et nécessite plus de temps."
-                    }
-                ]
-            },
-            {
                 "id": "ABD",
                 "title": "La Glycérine",
                 "mode": "intermediate",
@@ -2446,109 +2841,7 @@
                         "value": "Pour faire une huile essentielle de lavande par exemple, il faut cueillir les fleurs de lavande et les faire sécher pendant quelques jours. Ensuite, on les met dans un alambic avec de l'eau et on fait chauffer le tout. La vapeur d'eau entraîne les huiles essentielles hors des fleurs et les fait passer dans un récipient où elles sont recueillies."
                     }
                 ]
-            },
-            {
-                "id": "ABG",
-                "title": "Faire sa lessive",
-                "mode": "intermediate",
-                "links": [],
-                "content": [
-                    {
-                        "type": "text",
-                        "value": "La lessive est un produit essentiel pour nettoyer nos vêtements et tissus en général. Elle permet d'éliminer les taches, les saletés et les mauvaises odeurs, tout en laissant une agréable odeur de propreté. Il existe de nombreuses recettes de lessive maison, souvent plus respectueuses de l'environnement et de notre santé que les lessives industrielles qui contiennent souvent des produits chimiques toxiques. Voici une recette simple pour fabriquer votre propre lessive maison :"
-                    },
-                    {
-                        "type": "image",
-                        "value": "lessive_fr_en"
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Ingrédients :"
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "100 g de savon de Marseille en copeaux"
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "2 litres d'eau"
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "1 cuillère à soupe de bicarbonate de soude"
-                    },
-                    {
-                        "type": "text",
-                        "value": "Il est possible d'ajouter quelques gouttes d'huiles essentielles pour parfumer la lessive, mais cela reste facultatif."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Instructions :"
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "1. Dans une casserole, faire chauffer l'eau."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "2. Ajouter les copeaux de savon de Marseille et remuer jusqu'à ce qu'ils soient totalement dissous."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "3. Ajouter le bicarbonate de soude et remuer de nouveau."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "4. Retirer la casserole du feu et laisser refroidir."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "5. Une fois la lessive refroidie, la verser dans un bidon ou une bouteille en verre."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "6. Bien agiter le bidon avant chaque utilisation."
-                    },
-                    {
-                        "type": "text",
-                        "value": "Saviez-vous que vous pouvez faire de la lessive avec du lierre ? Cette plante contient des saponines naturelles, des substances qui ont des propriétés nettoyantes et moussantes. Voici comment procéder :"
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Cueillir une vingtaine de feuilles de lierre (fraîches ou séchées) et les laver pour enlever toute trace de saleté."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Mettre les feuilles dans une casserole et ajouter 1 litre d'eau."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Faire bouillir pendant une vingtaine de minutes, puis laisser refroidir."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Filtrer le liquide à l'aide d'une passoire pour retirer les feuilles."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Mettre le liquide obtenu dans une bouteille en verre ou un récipient hermétique."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Pour laver votre linge, ajouter environ 100 ml de ce liquide à votre machine à laver."
-                    },
-                    {
-                        "type": "bullet",
-                        "value": "Vous pouvez ajouter quelques gouttes d'huile essentielle de votre choix pour parfumer votre lessive."
-                    },
-                    {
-                        "type": "text",
-                        "value": "Cette lessive naturelle est écologique, économique et facile à fabriquer chez soi. En plus, elle ne contient aucun produit chimique nocif pour l'environnement ou pour la santé."
-                    }
-                ]
-                
-            },
-            
+            }
         ],
         "isPremium": true
     }
@@ -2935,6 +3228,43 @@
         "descriptionShort": "Que vous cherchiez un lieu de camp pour une nuit ou un endroit pour établir une base à long terme, vous aurez besoin de competence dans ce domaine. Trouvez des zones riches en ressources naturelles, des zones sûres et protégées et découvrez comment évaluer les différents facteurs environnementaux pour établir votre camp de survie idéal. Explorez les cartes, les évaluations environnementales et les conseils d'experts pour vous aider à trouver le lieu de camp le plus adapté à vos besoins.",
         "descriptionLong": "Lorsqu'on prépare une stratégie de survie, la localisation d'un camp de base est l'une des décisions les plus importantes à prendre. Que vous cherchiez à survivre pendant une courte période ou que vous planifiez une situation de survie à long terme, la sélection de l'emplacement approprié peut faire toute la différence. La localisation de votre camp de base doit tenir compte de plusieurs facteurs tels que la disponibilité des ressources naturelles, la sécurité, les conditions météorologiques et les risques environnementaux.\n\nCette section de l'application vous guidera à travers les différentes étapes à suivre pour localiser le site idéal pour votre camp de base en fonction de la durée de votre séjour. Nous explorerons les différents éléments à prendre en compte lors du choix d'un emplacement pour un camp de base à court terme, ainsi que les éléments à considérer lors de la sélection d'un site pour une installation à long terme.\n\nVous apprendrez également comment évaluer les différentes options de localisation et comment prendre une décision éclairée en fonction de vos besoins et de votre environnement. Nous aborderons des sujets tels que la richesse de la faune et de la flore, la proximité de l'eau, le climat, la sécurité et les risques naturels.\n\nEn fin de compte, la localisation de votre camp de base est un élément essentiel de votre stratégie de survie, et cette section de l'application vous aidera à prendre une décision informée et à planifier en conséquence pour assurer votre survie en cas de besoin.",
         "items": [
+            {
+            "id": "CO_SMOKE_DETECTOR",
+            "title": "Je possède des détecteurs de monoxyde de carbone et de fumée à piles",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [
+            {
+            "url": "https://www.prevention-incendie.gouv.fr/Les-detecteurs-de-fumee",
+            "description": "lien web",
+            "title": "Les détecteurs de fumée"
+            },
+            {
+            "url": "https://www.anses.fr/fr/content/monoxyde-de-carbone-co",
+            "description": "lien web",
+            "title": "Monoxyde de carbone (CO)"
+            }
+            ],
+            "content": [
+            {
+            "type": "text",
+            "value": "Posséder des détecteurs de monoxyde de carbone et de fumée à piles est essentiel pour la sécurité dans votre camp de base. Voici pourquoi :"
+            },
+            {
+            "type": "bullet",
+            "value": "Les détecteurs de fumée vous avertissent rapidement en cas de départ de feu, vous permettant d'évacuer les lieux et de réagir à temps pour minimiser les dommages et les risques pour la santé."
+            },
+            {
+            "type": "bullet",
+            "value": "Les détecteurs de monoxyde de carbone sont indispensables pour prévenir l'intoxication au CO, un gaz inodore, incolore et mortel qui peut s'accumuler dans les espaces confinés en raison d'une mauvaise combustion ou d'une mauvaise ventilation."
+            },
+            {
+            "type": "bullet",
+            "value": "Avoir des détecteurs fonctionnant sur piles garantit leur fonctionnement même en cas de panne de courant, assurant ainsi une protection continue pour votre camp de base."
+            }
+            ]
+            },
             {
                 "id": "ABU",
                 "title": "L'emplacement",

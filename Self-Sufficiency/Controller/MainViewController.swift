@@ -41,7 +41,7 @@ final class MainViewController: UIViewController {
     // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadDataFromJson()
+        topicList = JsonService.loadAllEntries()
         setUpView()
         fetchTipsFireBase()
         loadActionsPremium()
@@ -98,7 +98,7 @@ final class MainViewController: UIViewController {
                     self.tipsList.append(dataTip)
                 }
                 self.tipsViewActivityController.isHidden = true
-                self.updateTipsUiView(langage: SettingScheme.langage())
+                self.updateTipsUiView(langage: SchemeService.langage())
             }
             
         }
@@ -140,17 +140,6 @@ final class MainViewController: UIViewController {
         scorePercent = Int(score*100)
         scorePercentLabel.text = "\(scorePercent)%"
         scoreProgressView.progress = score
-    }
-    
-    private func loadDataFromJson() {
-        JsonService.parse(file: SettingScheme.returnNameSchemeLangageFile()) { result in
-            switch result {
-            case .success(let table):
-                self.topicList = table
-            case .failure(let error):
-                print(error)
-            }
-        }
     }
     
     private func setUpView() {
