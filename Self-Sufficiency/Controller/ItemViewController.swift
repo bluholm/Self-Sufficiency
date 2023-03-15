@@ -32,7 +32,6 @@ final class ItemViewController: UIViewController {
             let alert = UIAlertController(title: "ITEM_LINK_TITLE".localized(), message: nil, preferredStyle: .actionSheet)
             item.links.forEach { link in
                 let action = UIAlertAction(title: link.title, style: .default) { _ in
-                    print(link.url)
                 }
                 alert.addAction(action)
             }

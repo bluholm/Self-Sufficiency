@@ -15,14 +15,9 @@ final class AllTopicsViewController: UIViewController {
 
     // MARK: - Properties
     @IBOutlet var tableView: UITableView!
-    private var topicList = [TopicElement]()
+    private var topicList = AppData.shared.topicElements
     
-    // MARK: - LifeCycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        //FIXME: - loadDataFromJson()
-    }
-    
+    // MARK: - Overrides
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tableView.reloadData()
@@ -31,17 +26,6 @@ final class AllTopicsViewController: UIViewController {
             }
     }
     
-    // MARK: - Privates
-    /*private func loadDataFromJson() {
-        JsonService.parse(file: SchemeService.returnNameSchemeLangageFile()) { result in
-            switch result {
-            case .success(let table):
-                self.topicList = table
-            case .failure(let error):
-                print(error)
-            }
-        }
-    }*/
 }
 
 // MARK: - UITableViewDelegate

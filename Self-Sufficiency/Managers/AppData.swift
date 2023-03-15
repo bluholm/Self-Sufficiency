@@ -11,7 +11,7 @@ class AppData {
     
     static let shared = AppData()
     
-    var topicElements: [TopicElement] = []
+    var topicElements: [TopicElement] = JsonService.loadAllEntries()
 
     private init() { }
 }

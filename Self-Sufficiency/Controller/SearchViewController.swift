@@ -12,27 +12,10 @@ final class SearchViewController: UIViewController {
 
     // MARK: - Properties
     @IBOutlet var tableView: UITableView!
-    private var topicList = [TopicElement]()
+    private var topicList = AppData.shared.topicElements
     private var filteredTopic = [TopicElement]()
     private var searchWord: String!
     
-    // MARK: - Overrides
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        //FIXME: - loadDataFromJson()
-    }
-
-    // MARK: - Privates
-    /*private func loadDataFromJson() {
-        JsonService.parse(file: SchemeService.returnNameSchemeLangageFile()) { result in
-            switch result {
-            case .success(let table):
-                self.topicList = table
-            case .failure(let error):
-                print(error)
-            }
-        }
-    }*/
 }
 
 // MARK: - UITableViewDelegate, UITableViewDataSource

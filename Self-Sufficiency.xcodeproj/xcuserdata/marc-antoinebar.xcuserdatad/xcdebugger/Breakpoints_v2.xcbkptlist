@@ -7,96 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F840E127-9B95-4750-91E6-509B7AD34C41"
+            uuid = "DA7314F9-07B7-4DA7-B16D-B54E68A54D79"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Self-Sufficiency/Controller/MainViewController.swift"
+            filePath = "Self-Sufficiency/Model/Services/ScoreService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "fetchTipsFireBase()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5AE0AB89-F4B8-4E7A-962D-EA70E67C93EE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Self-Sufficiency/Controller/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "fetchTipsFireBase()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "5AE0AB89-F4B8-4E7A-962D-EA70E67C93EE - 17fb187d82a26b49"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in Self_Sufficiency.MainViewController.fetchTipsFireBase() -&gt; ()"
-                  moduleName = "Self-Sufficiency"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marc-antoinebar/My%20Mac/swift/personal%20projects/self-sufficiency/Self-Sufficiency/Controller/MainViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "608">
-               </Location>
-               <Location
-                  uuid = "5AE0AB89-F4B8-4E7A-962D-EA70E67C93EE - 17fb187d82a26b49"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in Self_Sufficiency.MainViewController.fetchTipsFireBase() -&gt; ()"
-                  moduleName = "Self-Sufficiency"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marc-antoinebar/My%20Mac/swift/personal%20projects/self-sufficiency/Self-Sufficiency/Controller/MainViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "876">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D8D03D71-B567-4E2C-BFFA-3D0D2618AAFD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Self-Sufficiency/Controller/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "fetchTipsFireBase()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "097C265F-DC08-415F-BC94-2142FE0C21DA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Self-Sufficiency/Controller/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "fetchTipsFireBase()"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "calculateScoreForOneTopic(for:checkedItems:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

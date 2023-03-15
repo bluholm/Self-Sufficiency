@@ -31,9 +31,11 @@ final class MainViewController: UIViewController {
     @IBOutlet var tipsViewActivityController: UIActivityIndicatorView!
     
     // variables & constants
-    private var topicList = [TopicElement]()
-    private var tipsList = [Tips]()
+    private var topicList = AppData.shared.topicElements
     private var topichighlight = [TopicElement]()
+    
+    private var tipsList = [Tips]()
+    
     private var alertMessage: String!
     private var alertTitle: String!
     private var alertAction: String!
@@ -41,7 +43,6 @@ final class MainViewController: UIViewController {
     // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
-        topicList = JsonService.loadAllEntries()
         setUpView()
         fetchTipsFireBase()
         loadActionsPremium()
