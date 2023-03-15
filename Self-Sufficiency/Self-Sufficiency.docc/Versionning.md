@@ -6,6 +6,8 @@ Retrouvons ici les versions et les choses qui seront developper et/ ou  à devel
 
 ##Version 1.0     
 [todo] presentation 3-slides at the launching game : titles to be done 
+[todo] les links ne semblaient pas s'afficher dans les items 
+[todo] voir pour les links dans les topics . 
 
 ##Version 2.0
 [todo] change le settings repositori when API load

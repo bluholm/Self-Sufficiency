@@ -20,6 +20,7 @@ final class ItemViewController: UIViewController {
     // MARK: - Override
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(item.links)
         setupView()
         showLinks()
         

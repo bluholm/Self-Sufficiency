@@ -1,0 +1,170 @@
+[
+  {
+    "id_item": "ASC",
+    "title": "Comment faire du feu : nos meilleures techniques",
+    "url": "https://www.natureetdecouvertes.com/conseils/comment-faire-du-feu-nos-meilleures-techniques-7173",
+    "description": "lien web"
+  },
+  {
+    "id_item": "ASC",
+    "title": "Les différents types de feux en bivouac",
+    "url": "https://www.randozone.com/dossiers/69/les-differents-types-de-feux-en-bivouac.html",
+    "description": "lien web"
+  },
+  {
+    "id_item": "ASC",
+    "title": "3 techniques pour cuire sans casserole",
+    "url": "https://www.natureetdecouvertes.com/conseils/3-techniques-pour-cuire-sans-casserole-7213",
+    "description": "lien web"
+  },
+  {
+    "id_item": "VT",
+    "title": "Matériel de randonnée chez Decathlon",
+    "url": "https://www.decathlon.fr/c/materiel-randonnee/_/N-5ct5?gclid=Cj0KCQiAtK7uBRDUARIsAM-goal9a0vSMzHapVwA_q6nvb7V2e50cU89O6QzJfvY99-B9RzvT8T7Ww0aAkChEALw_wcB",
+    "description": "lien web"
+  },
+  {
+    "id_item": "VT",
+    "title": "Coudre ses vêtements de randonnée",
+    "url": "https://www.randonner-leger.org/wiki/doku.php?id=couture",
+    "description": "wiki"
+  },
+  {
+    "id_item": "SEWING_KIT",
+    "title": "Fabriquer ses vêtements et accessoires",
+    "url": "https://www.pratique.fr/fabriquer-ses-vetements-et-accessoires.html",
+    "description": "lien web"
+  },
+  {
+    "id_item": "SEWING_KIT",
+    "title": "Comment fabriquer une aiguille de couture",
+    "url": "https://www.petitcitron.com/blog/comment-fabriquer-une-aiguille-couture/",
+    "description": "lien web"
+  },
+  {
+    "id_item": "SEWING_KIT",
+    "title": "Fabriquer ses éponges Tawashi",
+    "url": "https://www.mondedestitounis.fr/diy/fabriquer-ses-eponges-tawashi.html",
+    "description": "lien web"
+  },
+  {
+    "id_item": "ALAMBIC",
+    "title": "Alambic : pourquoi et comment en utiliser un",
+    "url": "https://www.distilleriesprovence.com/blog/alambic-pourquoi-et-comment-en-utiliser-un",
+    "description": "lien web"
+  },
+  {
+    "id_item": "ALAMBIC",
+    "title": "Entretenir son alambic en cuivre",
+    "url": "https://www.alambic-france.com/blog/entretien-alambic-cuivre/",
+    "description": "lien web"
+  },
+  {
+    "id_item": "ALAMBIC",
+    "title": "Les différentes parties d'un alambic et leur rôle",
+    "url": "https://www.copper-alembic.com/fr/blog/les-differentes-parties-dun-alambic-et-leur-role",
+    "description": "lien web"
+  },
+  {
+    "id_item": "FIRST_AID_COURSE",
+    "title": "First aid courses - British Red Cross",
+    "url": "https://www.redcross.org.uk/first-aid",
+    "description": "website"
+  },
+  {
+    "id_item": "FIRST_AID_COURSE",
+    "title": "Basic first aid advice - St John Ambulance",
+    "url": "https://www.sja.org.uk/get-advice/first-aid-advice/basic-first-aid-advice/",
+    "description": "website"
+  },
+  {
+    "id_item": "FIRST_AID_COURSE",
+    "title": "First aid - NHS",
+    "url": "https://www.nhs.uk/conditions/first-aid/",
+    "description": "website"
+  },
+  {
+    "id_topic": "1",
+    "title": "The Drinkable Book",
+    "url": "https://www.thedrinkablebook.com/",
+    "description": "An innovative book that contains pages of paper that filter water to make it drinkable. Each page can filter up to 100 liters of water and instructions on how to build a water filter are included in the book."
+  },
+  {
+    "id_topic": "1",
+    "title": "Sawyer Products Mini Water Filtration System",
+    "url": "https://sawyer.com/products/sawyer-mini-filter/",
+    "description": "A popular and reliable portable water filter, capable of filtering up to 378,500 liters of water."
+  },
+  {
+    "id_topic": "1",
+    "title": "LifeStraw Personal Water Filter",
+    "url": "https://lifestraw.com/",
+    "description": "Another popular portable water filter that allows you to drink fresh water without having to boil or use chemicals."
+  },
+  {
+    "id_topic": "1",
+    "title": "Make YOUR Survival Water Filter",
+    "url": "https://www.youtube.com/watch?v=QaAblon69sI",
+    "description": "A YouTube video tutorial that shows how to build a water filter from simple and inexpensive materials."
+  },
+  {
+    "id_topic": "3",
+    "title": "Making Ammunition",
+    "url": "",
+    "description": "Website"
+  },
+  {
+    "id_topic": "3",
+    "title": "How to Shoot a Rifle",
+    "url": "",
+    "description": "Website"
+  },
+  {
+    "id_topic": "3",
+    "title": "How to Hunt Rabbits",
+    "url": "",
+    "description": "Website"
+  },
+  {
+    "id_topic": "3",
+    "title": "Learning to Make Traps",
+    "url": "",
+    "description": "????????????????????????????????"
+  },
+  {
+    "id_topic": "3",
+    "title": "How to Hunt Deer",
+    "url": "",
+    "description": "Website"
+  },
+  {
+    "id_item": "MEC-COMP",
+    "title": "Auto Mechanics Guide",
+    "url": "https://www.manomano.fr/guide/mecanique-auto/",
+    "description": "web link"
+  },
+  {
+    "id_item": "MEC-COMP",
+    "title": "Automotive Mechanics Manual",
+    "url": "https://www.amazon.fr/M%C3%A9canique-automobile-1-Louis-Chevallier/dp/2701157147",
+    "description": "web link"
+  },
+  {
+    "id_item": "MEC-COMP",
+    "title": "Tutorial Video: Learn the Basics of Automotive Mechanics",
+    "url": "https://www.youtube.com/watch?v=_J-3w3B_gnM",
+    "description": "web link"
+  },
+  {
+    "id_item": "HORSE",
+    "title": "Tips for buying a horse",
+    "url": "https://www.equipedia.com/conseils-pour-acheter-un-cheval/",
+    "description": "web link"
+  },
+  {
+    "id_item": "HORSE",
+    "title": "Horse care in winter",
+    "url": "https://www.horse-academy.fr/blog/soins-cheval-en-hiver/",
+    "description": "web link"
+  }
+]

@@ -7,7 +7,6 @@
 
 import Foundation
 
-// MARK: - Link
 /// Link is a Swift struct that conforms to both the Codable and Hashable protocols.
 struct Link: Codable, Hashable {
     
@@ -20,4 +19,18 @@ struct Link: Codable, Hashable {
     /// description: a String representing the description of the link
     let description: String
     
+    /// Id connected to the topics
+    let idItem: String?
+    
+    /// Id connected to the topics
+    let idTopic: String?
+    
+    enum CodingKeys: String, CodingKey {
+        
+            case url
+            case title
+            case description
+            case idItem = "id_item"
+            case idTopic = "id_topic"
+    }
 }

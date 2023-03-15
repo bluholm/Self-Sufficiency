@@ -27,7 +27,7 @@ struct Item: Codable, Equatable {
     let content: [Content]
     
     /// list of links
-    let links: [Link]
+    var links: [Link]
     
     /// String representing the mode of the item mode has to bee :
     ///
